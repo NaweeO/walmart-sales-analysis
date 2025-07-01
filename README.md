@@ -1,10 +1,10 @@
-Walmart Sales Data Analysis
+#Walmart Sales Data Analysis
 
-1. Background and Overview
+1. ##**Background and Overview**
 This project presents a comprehensive analysis of Walmart’s historical sales data, focusing on identifying trends, evaluating performance across stores, and uncovering key factors influencing sales. Using Python, pandas, seaborn, and matplotlib, the analysis answers strategic business questions through data visualization and statistical summaries. The dataset includes weekly sales figures, holiday indicators, temperature, fuel price, CPI, and unemployment data across multiple store locations.
+---
 
-
-2. Data Structure Overview
+2.##**Data Structure Overview**
 Source: Walmart sales CSV file
 
 Records: ~6,435 entries (approx. 45 stores x ~143 weeks)
@@ -21,16 +21,16 @@ Unemployment: Regional unemployment rate
 
 -Data preprocessing included filling missing dates, removing duplicates, and deriving monthly summaries.
 
-
-3. Executive Summary
+---
+3. ##**Executive Summary**
 Key Metrics:
 -Top 5 stores contributed ≈29.45% of total weekly sales.
 -Holiday weeks drove $45.84M average weekly sales vs $10.37M during non-holiday weeks.
 -December showed consistent seasonal peaks across 2011 and 2012.
 -Negative correlation detected between unemployment and sales performance.
+---
 
-
-4. Insights Deep Dive
+4. ##**Insights Deep Dive**
    
 Insight 1: Top 5 Stores Drive Nearly 30% of Total Sales
 Metric: Top 5 stores generated $1.81B out of $6.14B total sales.
@@ -74,8 +74,8 @@ Business Implication: Macroeconomic conditions impact consumer behavior.
 
 Story: During higher unemployment periods, sales generally fell, underscoring consumer sensitivity to job market trends and overall confidence.
 
-
-5. Recommendations
+---
+5. ##**Recommendations**
 -Double Down on Top Stores: Invest more in Store 20, 10, and others with historically strong performance. These could be pilot locations for new initiatives.
 
 -Holiday Campaign Planning: Begin holiday inventory buildup and marketing well ahead of December. Tailor offers around key holiday weeks.
